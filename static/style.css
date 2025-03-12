@@ -1,0 +1,52 @@
+/* static/style.css */
+body {
+    font-family: sans-serif;
+    margin: 20px; /* Add some margin around the body */
+    background-color: #f4f7f9; /* Light background color */
+    color: #333; /* Darker text color for readability */
+}
+
+h1 {
+    text-align: center;
+    color: #4c78a8; /* Primary chart color to tie it together */
+    margin-bottom: 30px;
+}
+
+.chart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px; /* Increased margin for better separation */
+    padding: 20px;
+    background-color: white; /* White background for chart containers */
+    border-radius: 8px; /* Rounded corners for containers */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+.chart-title {
+    font-size: 1.4em; /* Slightly larger chart titles */
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #555; /* Slightly darker title color */
+}
+
+.tooltip {
+    position: absolute;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-radius: 5px;
+    pointer-events: none;
+    opacity: 0;
+    font-size: 0.9em; /* Smaller font in tooltip */
+}
+
+.axis-label {
+    font-size: 0.9em;
+    fill: #555;
+}
+
+.axis-ticks text {
+    font-size: 0.8em;
+    fill: #777;
+}
